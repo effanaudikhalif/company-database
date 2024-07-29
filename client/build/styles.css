@@ -1,0 +1,44 @@
+.general-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.branch {
+  padding-bottom: 50px;
+}
+
+.employee {
+  padding-bottom: 50px;
+}
+
+.client {
+  padding-bottom: 50px;
+}
+
+.project {
+  padding-bottom: px;
+}
+
+.text-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.home-layout {
+  padding: 50px;
+}
+
+.container-update {
+  padding: 50px;
+  width: 800px;
+  display: flex vertical;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-update > .text-center {
+  padding-bottom: 20px;
+}
+
+
