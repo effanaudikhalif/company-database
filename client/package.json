@@ -1,5 +1,5 @@
 {
-  "homepage": "https://effanaudikhalif.github.io/company-database",
+  "homepage": "http://effanaudikhalif.github.io/company-database",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -11,8 +11,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "gh-pages": "^6.1.1"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "PORT=3000 react-scripts start",
