@@ -4,7 +4,10 @@ const cors = require("cors");
 const pool = require("./db");
 
 /* MIDDLEWARE */
-app.use(cors());
+app.use(cors({
+  origin: 'https://company-database.onrender.com'
+}));
+
 app.use(express.json());
 const port = process.env.PORT || 4700;
 
