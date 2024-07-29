@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd client && react-scripts start",
     "build": "cd client && react-scripts build",
-    "test": "cd client && react-scripts test"
+    "client-test": "cd client && react-scripts test"
   },
   "author": "",
   "license": "ISC",
