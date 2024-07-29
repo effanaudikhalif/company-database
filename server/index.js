@@ -303,9 +303,9 @@ app.delete("/project/:project_id", async (req, res) => {
   }
 })
 
+const port = process.env.PORT || 4700;
 
-
-app.listen(4700, () => {
+app.listen(port, () => {
   console.log("server has started on port 4700");
 });
 
