@@ -1,4 +1,5 @@
 {
+  "homepage": "http://effanaudikhalif.github.io/company-database",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,8 @@
   },
   "scripts": {
     "start": "PORT=3000 react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build"
   },
   "eslintConfig": {
