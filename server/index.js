@@ -6,6 +6,7 @@ const pool = require("./db");
 /* MIDDLEWARE */
 app.use(cors());
 app.use(express.json());
+const port = process.env.PORT || 4700;
 
 /* EMPLOYEE ROUTES */
 
@@ -302,8 +303,6 @@ app.delete("/project/:project_id", async (req, res) => {
     res.status(500).send(err.message);
   }
 })
-
-const port = process.env.PORT || 4700;
 
 app.listen(port, () => {
   console.log("server has started on port 4700");
